@@ -1,0 +1,37 @@
+{
+	"users": 
+		[
+			{
+				"elementName": "John",
+				"groups": ["Awesome"]
+			},
+			{
+				"elementName": "Mary", 
+				"groups": ["Great", "Cool"]
+			},
+			{
+				"elementName": "Ann",
+				"groups": ["Awesome", "Cool"]
+			},
+			{
+				"elementName": "Julia", 
+				"groups": ["Great"]
+			}
+		],
+
+	"groups":
+		[
+			{
+				"elementName": "Awesome",
+				"users": ["John", "Ann"]
+			},
+			{
+				"elementName": "Great", 
+				"users": ["Mary", "John", "Great"]
+			},
+			{
+				"elementName": "Cool", 
+				"users": ["Mary", "John", "Ann"]
+			}
+		]	
+}

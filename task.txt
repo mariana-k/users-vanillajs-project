@@ -1,0 +1,15 @@
+TASK:
+Please solve the following assignment within three to four hours. It is meant as a discussion starter.
+Epic: User management system
+Stories:
+- As an admin I can add users. A user has a name.
+- As an admin I can delete users.
+- As an admin I can assign users to a group they aren’t already part of.
+- As an admin I can remove users from a group.
+- As an admin I can create groups.
+- As an admin I can delete groups when they no longer have members.
+This is the kind of artifact we would like to see:
+Note: For frontend positions, please implement the design using technology that allows us to gauge your JavaScript, markup and CSS skills. Bonus points if you avoid monolithic frameworks like bootstrap or Angular.js. Focus mostly on the code.
+a) Show me a small domain model for the processes above (in UML or anything else). For frontend positions this domain model can be a frontend domain model as well.
+b) Show me a database model (for frontend positions this might be even client side).
+c) Design a convenient API other developers would love to use for the tasks above. For frontend positions this should be a remote interface.

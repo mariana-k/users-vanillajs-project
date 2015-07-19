@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<!-- META TAGS -->
+		<meta charset="UTF-8" />
+		
+		<!-- TITLE -->
+		<title>Company</title>
+
+		<!-- STYLE SHEETS-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- The HTML5 shiv for older IE browsers -->
+        <!--[if lt IE 10]><script src="js/html5shiv-printshiv.min.js" media="all"></script><![endif]-->
+	</head>
+	<body>				
+			<!-- HEADER start -->
+            <header class="header clearfix">
+                <div class="container">
+                    <div class="logo"></div>
+                    <nav class="nav"></nav>
+                </div>
+            </header>
+            <!-- HEADER end -->
+
+            <!-- MAIN start -->
+            <div class="main clearfix">
+                <section id="user-management-system" class="container">
+                    <aside class="sidebar">
+                        <!-- Lists controls start -->
+                        <form class="users">
+                            <h3>Add User</h3>
+                            <input type="text" id="user-name" class="value" value="User Name" />
+                            <input type="button" id="add-user" class="user add-button" value="Add User" />
+                        </form>
+                        
+                        <form class="users">
+                            <h3>Remove User</h3>
+                            <input type="text" id="remove-user-name" class="value" value="User Name" />
+                            <input type="button" id="remove-user" class="user remove-button" value="Remove User" />
+                        </form>
+
+                        <form class="groups">
+                            <h3>Add Group</h3>
+                            <input type="text" id="group-name" class="value" value="Group Name" />
+                            <input type="button" id="add-group" class="group add-button" value="Add Group" />
+                        </form>
+                        
+                        <form class="groups">
+                            <h3>Remove Group</h3>
+                            <input type="text" id="remove-group-name" class="value" value="Group Name" />
+                            <input type="button" id="remove-group" class="group remove-button" value="Remove Group" />
+                        </form>
+
+                        <form class="add-groupsusers">
+                            <h3>Add User to Group</h3>
+                            <input type="text" class="value" value="User Name" />
+                            <input type="text" class="group-name" value="Group Name" />
+                            <input type="button" class="add-to-group" value="Add To Group" />
+                        </form>
+
+                        <form class="remove-groupsusers">
+                            <h3>Remove User from Group</h3>
+                            <input type="text" class="value" value="User Name" />
+                            <input type="text" class="group-name" value="Group Name" />
+                            <input type="button" class="remove-from-group" value="Remove From Group" />
+                        </form>
+                        <!-- Lists controls end -->
+                    </aside>
+                    <!-- Users list start -->
+                    <section class="list-wrapper users-list-wrapper">
+                        <h3>Users</h3>
+                        <div id="users-list" class="list user-list"></div>
+                    </section>
+                    <!-- Users list end -->
+                    <!-- Groups list start -->
+                    <section class="list-wrapper groups-list-wrapper">
+                        <h3>Groups</h3>
+                        <div id="groups-list" class="list groups-list"></div>
+                    </section>
+                    <!-- Groups list end -->
+                </div>                
+            </section>
+            <!-- MAIN end -->
+
+            <!-- FOOTER start -->
+            <footer class="footer clearfix">
+                <div class="container">
+                </div>
+            </footer>
+            <!-- FOOTER end -->
+
+			<!-- Scripts -->
+            <script src="js/main.js"></script>
+	</body>
+</html>
